@@ -5,11 +5,11 @@ How To Use This Widget?
   
 TO SHOW:  
 Syntax:  
-   systemNotifyer.display({  
-                      type:'error | warning | success',  
-                      text:'',  
-                      html: ''  
-                     })  
+   <dl>systemNotifyer.display({  
+                    <dd>  type:'error | warning | success',  </dd>
+                      <dd>text:'',  </dd>
+                      <dd>html: ''  </dd>
+                     })</dl>
    Example:  
 ```javascript
      systemNotifyer.display({type:"success",text:"Data saved successfully"});  
